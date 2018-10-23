@@ -5,11 +5,13 @@
 > 1. Found the linked Minterm(**find the "stable" element**), then combine them with the **OR**
 > 2. You can also combine the nodes in the different boundary.
 >
-> ![1540263014307](C:\Users\29551\Documents\2018Autumn\Digital design\lecture_notes\picture\1540263014307.png)
+> ![Capture2](C:\Users\29551\Documents\2018Autumn\Digital design\Digital-Design-Lab\Pictures\Capture2.JPG)
 >
 > 
 >
 > **Result:  y | (~w & ~z  & y) | (x & ~z  & y)**
+
+
 
 
 
@@ -18,6 +20,21 @@
 > 1. Find the Maxterm, Do the same thing as the Way 1
 > 2. However, when represent the equation, use the inverse  of the element and combine block them with the "|" and the final result is the product of these maxterms.
 >
-> ![1540264929239](C:\Users\29551\AppData\Local\Temp\1540264929239.png)
+> ![Capture](C:\Users\29551\Documents\2018Autumn\Digital design\Digital-Design-Lab\Pictures\Capture.JPG)
 >
 > **Result: (~C | ~ D) & (D | ~B) & ( ~A | ~ B )**
+
+
+
+
+
+#### More complex Karnaugh Map
+
+> ##### *5-attributes : two 4-attributes maps*
+>
+> ![Capture3](C:\Users\29551\Documents\2018Autumn\Digital design\Digital-Design-Lab\Pictures\Capture3.JPG)
+>
+> ##### *6-attributes or more : More 4-attributes maps*
+>
+> ![Capture4](C:\Users\29551\Documents\2018Autumn\Digital design\Digital-Design-Lab\Pictures\Capture4.JPG)
+
